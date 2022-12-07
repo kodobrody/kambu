@@ -1,0 +1,1 @@
+export { RelatedVideo } from './RelatedVideo';

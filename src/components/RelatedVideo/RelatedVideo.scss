@@ -1,0 +1,75 @@
+.related-video {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+
+  &__background {
+    display: block;
+    width: 100%;
+    height: 116px;
+    position: relative;
+    background: #39404c;
+    margin-bottom: 10px;
+  }
+
+  &__duration {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    width: 50px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    background: #152432;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    gap: 4px;
+
+    &-title {
+      font-size: 13px;
+      letter-spacing: 0.2px;
+      line-height: 1.4;
+      font-weight: 700;
+    }
+    
+    &-views {
+      display: flex;
+      gap: 10px;
+      margin-top: 4px;
+
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .related-video {
+    flex-direction: row;
+    gap: 16px;
+    
+    &__background {
+      min-width: 222px;
+      max-width: 222px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .related-video {
+    flex-direction: column;
+    gap: initial;
+    
+    &__background {
+      width: 222px;
+    }
+  }
+}
+

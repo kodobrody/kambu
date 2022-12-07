@@ -1,0 +1,53 @@
+.video-player {
+  &__wrapper {
+    width: 848px;
+    max-width: 848px;
+    overflow: hidden;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  &__container {
+    width: 848px;
+    background-color: #39404c;
+    height: 474px;
+    position: relative;
+  }
+  &__top-icons-wrapper {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 34px;
+    right: 28px;
+    gap: 23px;
+  }
+}
+
+.allWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: calc(100vw - 16px);
+}
+
+@media (max-width: 1200px) {
+  .allWrapper {
+    flex-direction: column;
+    max-width: calc(100vw - 54px);
+  }
+
+  .video-player {
+    &__wrapper {
+      width: 100%;
+      max-width: 660px;
+    }
+    &__container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto;
+    }
+    &__top-icons-wrapper {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}

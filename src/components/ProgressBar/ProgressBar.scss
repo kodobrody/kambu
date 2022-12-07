@@ -1,0 +1,19 @@
+.progress {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    height: 4px;
+    overflow: hidden;
+    flex-grow: 1;
+    background-color: #48515f;
+    position: relative;
+  }
+  
+  &__bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #0daabb;
+  }
+}

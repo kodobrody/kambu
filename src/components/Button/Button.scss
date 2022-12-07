@@ -1,0 +1,51 @@
+.button {
+  border: 1px solid #00aa09;
+  border-radius: 999px;
+  padding: 0;
+  background-color: #08d219;
+  height: 30px;
+  margin-left: 8px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  overflow: hidden;
+  font-size: 12px;
+  &.icon {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  &__icon-wrapper {
+    border-right: 1px solid #00aa09;
+    background-color: #05bc14;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 120%;
+    left: 0;
+    width: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // nie ma ikonki plusa, więc dałem after+before
+    &::before, &::after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 10px;
+      background-color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+    }
+
+    &::after {
+      rotate: 90deg;
+    }
+
+  }
+}
