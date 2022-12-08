@@ -1,7 +1,7 @@
 import loveIcon from '@/assets/love-icon.png';
 import shareIcon from '@/assets/share-icon.png';
-import { VideoPlayerNavigation } from '../VideoPlayerNavigation/VideoPlayerNavigation';
-import { VideoDescription } from '../VideoDescription';
+import { VideoPlayerNavigation } from '@/components/VideoPlayerNavigation';
+import { VideoDescription } from '@/components/VideoDescription';
 import { FullVideoType } from '../types';
 
 type VideoPlayerProps = {
