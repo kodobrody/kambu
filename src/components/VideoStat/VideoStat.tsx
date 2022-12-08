@@ -1,4 +1,4 @@
-import { handleCount } from "@/utils";
+import { handleCount } from "../../utils";
 import './VideoStat.scss';
 
 type VideoStatProps = {

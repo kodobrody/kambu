@@ -1,4 +1,4 @@
-import { RelatedVideo } from '@/components/RelatedVideo';
+import { RelatedVideo } from '../../components/RelatedVideo';
 import { RelatedVideoType } from '../types';
 import './RelatedList.scss';
 

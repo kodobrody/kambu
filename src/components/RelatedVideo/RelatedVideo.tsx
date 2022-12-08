@@ -1,8 +1,8 @@
-import viewsIcon from '@/assets/views-icon.png';
+import viewsIcon from '../../assets/views-icon.png';
 import {
   convertDurationToString,
   handleCount
-} from '@/utils';
+} from '../../utils';
 import { VideoStat } from '../VideoStat';
 import './RelatedVideo.scss';
 

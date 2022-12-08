@@ -1,5 +1,5 @@
-import { Button } from "@/components/Button";
-import { handleCount } from "@/utils";
+import { Button } from "../../components/Button";
+import { handleCount } from "../../utils";
 import './VideoUploaderInfo.scss';
 
 type VideoUploaderInfoProps = {

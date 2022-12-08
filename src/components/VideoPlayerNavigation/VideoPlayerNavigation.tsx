@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 
-import { ProgressBar } from "@/components/ProgressBar";
-import { convertDurationToString } from "@/utils";
-import volumeIcon from '@/assets/volume-icon@2x.png';
-import fullscreenIcon from '@/assets/fullscreen-icon@2x.png';
+import { ProgressBar } from "../../components/ProgressBar";
+import { convertDurationToString } from "../../utils";
+import volumeIcon from '../../assets/volume-icon@2x.png';
+import fullscreenIcon from '../../assets/fullscreen-icon@2x.png';
 import './VideoPlayerNavigation.scss';
 
 type VideoPlayerNavigationProps = {

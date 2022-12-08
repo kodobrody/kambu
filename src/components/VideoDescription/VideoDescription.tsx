@@ -1,8 +1,8 @@
-import { VideoStat } from "@/components/VideoStat";
-import { VideoUploaderInfo } from "@/components/VideoUploaderInfo";
-import viewsIcon from '@/assets/views-icon@2x.png';
-import heartIcon from '@/assets/heart-icon@2x.png';
-import commentIcon from '@/assets/comment-icon@2x.png';
+import { VideoStat } from "../../components/VideoStat";
+import { VideoUploaderInfo } from "../../components/VideoUploaderInfo";
+import viewsIcon from '../../assets/views-icon@2x.png';
+import heartIcon from '../../assets/heart-icon@2x.png';
+import commentIcon from '../../assets/comment-icon@2x.png';
 import './VideoDescription.scss';
 import { FullVideoType } from "../types";
 

@@ -1,6 +1,6 @@
 import './App.css';
-import { VideoPlayer } from '@/components/VideoPlayer';
-import { RelatedList } from '@/components/RelatedList/RelatedList';
+import { VideoPlayer } from './components/VideoPlayer';
+import { RelatedList } from './components/RelatedList';
 import {
   relList,
   video
