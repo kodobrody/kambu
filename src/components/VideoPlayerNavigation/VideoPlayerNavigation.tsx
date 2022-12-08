@@ -21,7 +21,7 @@ export const VideoPlayerNavigation = ({
       <div className="play-button" />
       <ProgressBar
         progress={progress}
-        length={length}
+        duration={duration}
       />
       <span className="navigation__progress">
         {convertDurationToString(progress)}&nbsp;/&nbsp;{finalLength}</span>
